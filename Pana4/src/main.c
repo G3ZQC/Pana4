@@ -67,7 +67,7 @@ int16_t FFT_Buffer[FFT_IQ_LEN];
 int16_t FFT_Output[FFT_IQ_LEN/2];
 int16_t FFT_Display_Buffer[FFT_IQ_LEN/2];
 
-unsigned long IF_Freq = 10715000 * 4;						// IF frequency in Hz
+unsigned long IF_Freq = 10715000;						// IF frequency in Hz
 
 unsigned int FFT_Busy = FALSE;
 
