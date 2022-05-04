@@ -2,7 +2,7 @@
 Repository for STM32 based Panadapter Firmware
 This project was intended to a an add-on for the Pic-A-Star HF transceiver.  Pic-A-Star is a high performance, 
 homebrew transceiver developed by Peter Rhodes (G3XJP).  It was first published in Radcom, the magazine of the 
-Radio society of Great Britain (RSGB) in the early 2000s.  Most of the functionality was performed digitally 
+Radio Society of Great Britain (RSGB) in the early 2000s.  Most of the functionality was performed digitally 
 using digital signal processing (DSP).  The first IF (intermediate frequency) was at 10.7 MHz.  
 
 The objective of this project was to sample the signal from the 10.7MHz IF, use a "Tayloe" mixer to 
