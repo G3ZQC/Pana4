@@ -8,12 +8,12 @@ using digital signal processing (DSP).  The first IF (intermediate frequency) wa
 The objective of this project was to sample the signal from the 10.7MHz IF, use a "Tayloe" mixer to 
 convert the signal to the audio spectrum, with both the in-phase (I) and quadrature (Q) components.  
 Use an analogue to digital converter (ADC) to allow the I and Q components to be processed in a 
-suitable microcontrller, and display the bandscope on a graphical liquid crystal (lcd) display.  
+suitable microcontroller, and display the bandscope on a graphical liquid crystal (lcd) display.  
 
 The "front end" Tayloe mixer was a direct copy of the receive portion of the mcHF transceiver 
 (http://www.m0nka.co.uk/?page_id=2).  The Si5351 local oscillator is clocked at four times the 
-IF frequency, beforte being divided by four to produce the quadrature ouput signals needed to 
-clock the Tayloe mixer.  The microcontrlloer was the STM32F407G-DISC1 Discovery development 
+IF frequency, before being divided by four to produce the quadrature output signals needed to 
+clock the Tayloe mixer.  The microcontroller was the STM32F407G-DISC1 Discovery development 
 platform.  The display is a 2.8in TFT LCD module, model HY28B, driven via the Serial Peripheral 
 Interface (SPI).  
 
