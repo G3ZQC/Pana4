@@ -17,7 +17,7 @@ clock the Tayloe mixer.  The microcontrlloer was the STM32F407G-DISC1 Discovery 
 platform.  The display is a 2.8in TFT LCD module, model HY28B, driven via the Serial Peripheral 
 Interface (SPI).  
 
-Thge coding was done using the Eclipse Integrated Development Environment (IDE).  
+The coding was done using the Eclipse Integrated Development Environment (IDE).  
 
 Never got as far as attaching it to the Pic-A-Star transceiver, not sure why I stopped working on it, 
 it just got pushed off the work-bench...  
